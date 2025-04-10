@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/assets/paginas/cardapio.html" class="nav-btn">Cardápio</a>
+        <a href="/assets/paginas/quemsomos.html" class="nav-btn">Quem somos</a>
+    </nav>
+    <div class="contact-box">
+        <h1 class="contact-header">Fale Conosco</h1>
+        <form id="contactForm">
+            <div class="input-section">
+                <label for="cliente" class="input-label">Nome Completo*</label>
+                <input type="text" id="cliente" name="cliente" class="input-field" required>
+                <br>
+                    <label for="telefone" class="input-label">Telefone*</label>
+                    <input type="tel" id="telefone" name="telefone" class="input-field" required>
+                    <br>
+                    <label for="email" class="input-label">Email*</label>
+                    <input type="email" id="email" name="email" class="input-field" required>
+                    <br>
+                    <label for="endereco" class="input-label">Endereço</label>
+                    <input type="text" id="endereco" name="endereco" class="input-field">
+                    <br>
+                    <label for="genero" class="input-label">Gênero</label>
+                    <select id="genero" name="genero" class="input-field">
+                        <option value="">Selecione...</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                    <br>
+                    <label for="mensagem" class="input-label">Mensagem*</label>
+                    <textarea id="mensagem" name="mensagem" class="input-field message-box" required></textarea>
+                    <br>
+
+                    <button type="submit" class="send-button">Enviar Mensagem</button>
+                </div>
+        </form>
+
+        <footer class="footer-contact">
+
+            <div style="display: flex; justify-content: center; gap: 20px;">
+                <span> (79) 98812321</span>
+                <span> contato@SaboresDourados.com</span>
+                <span> @RefúgiodosSaboresDourados</span>
+            </div>
+            <span> Aracaju - SE | Aberto de Domingo a domingo, 17h-23h</span>
+        </footer>
+    </div>
+
+</body>
+
+</html>

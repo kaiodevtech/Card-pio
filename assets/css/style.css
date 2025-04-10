@@ -1,0 +1,187 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFF9F0;
+    color: rgb(47, 51, 54);
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.content {
+    position: fixed;
+    max-width: 60%;
+    padding: 4%;
+}
+
+p.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    font-style: italic;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+
+.h {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.home {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+
+nav {
+    background:  #f8c50f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background: orangered;
+    border-radius: 4px;
+}
+
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 3.2rem;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    color:  #ffd000;
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.prato {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.prato:hover {
+    transform: translateY(-5px);
+}
+
+.prato-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 4px solid #FFF9F0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.prato-info {
+    flex: 1;
+}
+
+.prato-nome {
+    font-size: 1.5em;
+    color:  #f8c50f;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.prato-desc {
+    color: #7A6A5F;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.prato-preco {
+    font-size: 1.3em;
+    color: #A0522D;
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: #5A3E2A;
+    border-bottom: 2px dashed #8B4513;
+    padding-bottom: 5px;
+    margin: 40px 0 20px 0;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #5A3E2A;
+    font-style: italic;
+}
+
+#audioBtn {
+    background: #302604;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f8c50f;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid red;
+    z-index: 1000;
+}
+
+body::after {
+    content: "";
+    display: block;
+    height: 60px;
+
+}
+
+textarea {
+    height: 100px;
+}
